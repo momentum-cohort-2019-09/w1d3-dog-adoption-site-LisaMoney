@@ -1,16 +1,68 @@
-* {
+* { 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.border {
-    background-color: rgb(0, 50, 255);
-    color: white;
-    padding: 10px;
-    font-size: xx-large;
-    line-height: 2;
+.adopt-a-dog h2 {
+    margin: 10px;
 }
-.options {
+
+.border {
+    background-color: darkblue;
+    color: white;
+    padding: 7px 7px 7px 30px;
+    font-size: xx-large;
+    line-height: 3;
+}
+.adopt-a-dog {
+line-height: 2rem;
+}
+
+.beige {
+    background-color: bisque;
+}
+.dog-options {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+    max-width: 100%;
+    grid-column: auto;
     
+}
+li {
+    list-style-type: none;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    max-width: 35%;
+    background-color: aqua;
+}
+
+.donate {
+    background: linear-gradient(rgba(30, 9, 110, 0.8), rgba(30, 9, 110, 0.8)), no-repeat center/cover url('starter_files/images/donate.jpg');
+    width: 400px;
+    padding: 100px;
+    text-align: center;
+}
+
+.volunteer {
+    background: linear-gradient(rgba(30, 9, 110, 0.8), rgba(30, 9, 110, 0.8)), no-repeat center/cover url('starter_files/images/volunteer.jpg');
+    width: 400px;
+    padding: 100px;
+    text-align: center;
+}
+.our-location {
+    background: linear-gradient(rgba(30, 9, 110, 0.8), rgba(30, 9, 110, 0.8)), no-repeat center/cover url('starter_files/images/location.png');
+    width: 400px;
+    padding: 150px;
+    text-align: center;
+}
+
+.bottom-border {
+    display: flex;
+    justify-content: center;
+    color: white;
 }
